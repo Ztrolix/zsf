@@ -1,0 +1,84 @@
+@import url(https://db.onlinewebfonts.com/c/b0755951227a35be2e1b6af8a8bbe233?family=Borsok);
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to right, #ff3131, #ff914d);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo-container {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.container {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-family: "Borsok";
+}
+
+h1, h2, h3 {
+    color: #61dafb;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    background-color: #282c34;
+    border: 1px solid #61dafb;
+    color: #ffffff;
+    padding: 10px;
+}
+
+button {
+    background-color: #61dafb;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #61dafb;
+    text-decoration: none;
+}
